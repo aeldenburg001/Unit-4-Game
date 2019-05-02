@@ -34,8 +34,6 @@ p {
 /* Set background color for main elements in the body (main scoreboard; includes Random Number, Total Score, Wins, and Losses) */
 #totalScore, #wins, #losses, .score {
 	color: #c5eff4;
-	margin: 20px auto;
-	padding: 10px auto;
 }
 /* Set custom color for the magicNumber / Random Number */
 #magicNumber {
