@@ -9,11 +9,11 @@ $(document).ready(function() {
 	var crystal4Num;
 
 	function newNumbers() {
-		magicNumber = Math.floor(Math.random() * 110) + 20;
-		crystal1Num = Math.ceil(Math.random() * 12);
-		crystal2Num = Math.ceil(Math.random() * 12);
-		crystal3Num = Math.ceil(Math.random() * 12);
-		crystal4Num = Math.ceil(Math.random() * 12);
+		magicNumber = Math.floor(Math.random() * 110) + 10;
+		crystal1Num = Math.ceil(Math.random() * 10);
+		crystal2Num = Math.ceil(Math.random() * 10);
+		crystal3Num = Math.ceil(Math.random() * 10);
+		crystal4Num = Math.ceil(Math.random() * 10);
 	}
 
 	function newGame() {
@@ -35,14 +35,18 @@ $(document).ready(function() {
 	function youWin() {
 		$("#winOrLose").text("You Win!");
 		wins++;
-    $("#wins").text(wins);
+		// Updates the scorebord to let you know that you won the game
+		$("#wins").text(wins);
+		// Pop up to let you know that you won the game
     alert("Congratulations, You Win!");
 	}
 
 	function youLose() {
 		$("#winOrLose").text("You Lose!");
 		losses++;
-    $("#losses").text(losses);
+		// Updates the scorebord to let you know that you lost the game
+		$("#losses").text(losses);
+		// Pop up to let you know that you lost the game
     alert("Sorry, You Lose");
 	}
 
