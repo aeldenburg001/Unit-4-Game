@@ -19,51 +19,65 @@ h3 {
 /* Set color, margin and padding for h4 elements (Title of How to Play for directions) */
 h4 {
 	color: #a182bc;
-	margin: 20px auto;
-	padding: 10px auto; 
+	margin: 10px auto;
 }
 /* Set color of p tags (step by step for How to play the game) */
 p {
-    color: #5073aa;
+	color: #5073aa;
+	margin: 10px auto;
+	padding: 10px auto;
 }
 /* Set color and padding of the header (the title of the game) */
 .header {
-	padding: 10px 0px 0px 0px;
+	padding: 10px 0px 10px 0px;
     color: #a182bc;
 }
 /* Set background color for main elements in the body (main scoreboard; includes Random Number, Total Score, Wins, and Losses) */
-#totalScore, #wins, #losses, .score {
+#totalScore, .score {
 	color: #c5eff4;
+	margin: 10px auto;
+	padding: 10px auto;
+}
+#wins, #losses {
+	background: #c5eff4;
+	color: #a182bc;
+	margin: 10px auto;
+	padding: 10px auto;
 }
 /* Set custom color for the magicNumber / Random Number */
 #magicNumber {
 	color: #c5eff4;
+	margin: 10px auto;
+	padding: 10px auto;
 }
 /* Set background and text color, margins, and letter spacing for h1 tags */
 h1 {
 	color: #a182bc;
 	background: #c5eff4;
-	margin: 15px 0px 35px 0px;
+	margin: 25px 0px 35px 0px;
 	letter-spacing: 12px;
+	padding: 10px auto;
 }
 /* Set size, margin, padding, and background color for images */
 .crystalimg {
-	width: 175px;
-    height: 150px;
-    margin: 20px auto;
-    padding: 20px auto;
+	width: 200px;
+    height: 180px;
+    margin: 25px auto;
+    padding: 15px auto;
 	border: solid #c5eff4 3px;
 }
 /* Set text color, alignment, and padding for How to Play */
 .directions {
 	color: #a182bc;
 	text-align: center;
-	padding: 20px 85px;
+	margin: 10px auto;
 }
 /* Set font size, weight, spacing, margin, and padding for Score */
 .score {
-	padding-top: 20px;
-	margin-bottom: 0;
+	background: #c5eff4;
+	color: #a182bc;
+	padding-top: 10px;
+	margin-bottom: 10px;
 	font-size: 22px;
 	font-weight: 600;
 	letter-spacing: 3px;
