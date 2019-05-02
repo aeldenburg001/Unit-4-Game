@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    background: #cefde1;
+}
+
+body { 
+	min-height: 100vh;
+    background: #c5eff4;
+}
+
+img {
+    width: 175px;
+    height: 150px;
+    background: #a182bc;
+}
+
+h3 {
+	margin: 10px 0px 10px 0px;
+	letter-spacing: 3px;
+}
+
+p {
+    color: #a182bc;
+}
+
+.header {
+	padding: 10px 0px 0px 0px;
+    color: #a182bc;
+}
+
+h1 {
+    color: #a182bc;
+    background: #c5eff4;
+}
+
+h3, #magicNumber, #totalScore, #wins, #losses, .score {
+    color: #5073aa;
+}
+
+h1 {
+	color: #a182bc;
+	margin: 15px 0px 35px 0px;
+	letter-spacing: 12px;
+}
+
+.crystalimg {
+	width: 150px;
+    margin: 20px auto;
+    padding: 10px auto;
+    background: #a182bc;
+}
+
+.directions {
+	color: #a182bc;
+	text-align: center;
+	padding: 20px 85px;
+}
+
+.score {
+	padding-top: 15px;
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+/*.directions {
+	
+}*/
+
+#winOrLose {
+	color: #5073aa;
+}
+
+.total, .scores, .directions {
+	margin: auto;
+}
+
+.btn {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+    color: #a182bc;
+    background: #c5eff4
+	letter-spacing: 3px;
+}
